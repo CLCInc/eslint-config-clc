@@ -80,7 +80,6 @@ module.exports = {
         "no-case-declarations": 2,
         "no-div-regex": 0,          // disallow division operators explicitly at beginning of regular expression (off by default)
         "no-else-return": 2,        // disallow else after a return in an if (off by default)
-        "no-empty-label": 2,        // disallow use of labels for anything other then loops and switches
         "no-eq-null": 0,            // disallow comparisons to null without a type-checking operator (off by default)
         "no-eval": 0,               // disallow use of eval()
         "no-extend-native": 2,      // disallow adding to native types
@@ -90,7 +89,7 @@ module.exports = {
         "no-implied-eval": 2,       // disallow use of eval()-like methods
         "no-invalid-this": 2,
         "no-iterator": 0,           // disallow usage of __iterator__ property
-        "no-labels": 0,             // disallow use of labeled statements
+        "no-labels": 2,             // disallow use of labeled statements
         "no-lone-blocks": 2,        // disallow unnecessary nested blocks
         "no-loop-func": 0,          // disallow creation of functions within loops
         "no-multi-spaces": 0,       // disallow use of multiple spaces
@@ -192,7 +191,7 @@ module.exports = {
         "space-before-blocks": 0,       // require or disallow space before blocks (off by default)
         "space-in-parens": 0,           // require or disallow spaces inside parentheses (off by default)
         "space-infix-ops": 2,           // require spaces around operators
-        "space-return-throw-case": 2,   // require a space after return, throw, and case
+        "keyword-spacing": 2,   // require a space after return, throw, and case
         "space-unary-ops": 0,           // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
         "spaced-line-comment": 0,       // require or disallow a space immediately following the // in a line comment (off by default)
         "wrap-regex": 0,                // require regex literals to be wrapped in parentheses (off by default)
