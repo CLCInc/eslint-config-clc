@@ -163,7 +163,7 @@ module.exports = {
         "key-spacing": [                // enforces spacing between keys and values in object literal properties
             "error",
             {
-                "align": "colon"
+                "align": "value"
             }
         ],
         "indent": [2, 4, {"SwitchCase": 1}],
