@@ -2,17 +2,19 @@
 
 module.exports = {
     // http://eslint.org/docs/rules/
-
-    "ecmaFeatures": {
-        "arrowFunctions": true,           // enable binary literals
-        "blockBindings": true,                     // enable let and const (aka block bindings)
-        "classes": true,                 // enable default function parameters
-        "generators": true,                        // enable generators
-        "objectLiteralComputedProperties": true,   // enable computed object literal property names
-        "objectLiteralShorthandMethods": true,     // enable object literal shorthand methods
-        "objectLiteralShorthandProperties": true,  // enable object literal shorthand properties
-        "templateStrings": true,                   // enable template strings
-        "jsx": false                                // enable JSX
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "ecmaFeatures": {
+            "arrowFunctions": true,           // enable binary literals
+            "blockBindings": true,                     // enable let and const (aka block bindings)
+            "classes": true,                 // enable default function parameters
+            "generators": true,                        // enable generators
+            "objectLiteralComputedProperties": true,   // enable computed object literal property names
+            "objectLiteralShorthandMethods": true,     // enable object literal shorthand methods
+            "objectLiteralShorthandProperties": true,  // enable object literal shorthand properties
+            "templateStrings": true,                   // enable template strings
+            "jsx": false                                // enable JSX
+        }
     },
 
     "env": {
