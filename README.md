@@ -2,11 +2,13 @@
 ES Lint Config
 
 To add this file to your own project, setup your project's `package.json` to include
-the following:
+the following (note that you should the most up-to-date versions of each):
 ```js
   "devDependencies": {
-    "eslint": "^3.7.1", // note, you should just use whatever is most up-to-date
-    "eslint-config-clc": "git://github.com/CLCInc/eslint-config-clc.git"
+    "eslint": "^6.6.0",
+    "eslint-config-clc": "git://github.com/CLCInc/eslint-config-clc.git",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
   }
 ```
 and then in your project's root folder, create a `.eslintrc` file containing the following:

@@ -11,8 +11,5 @@
   "repository": "https://github.com/CLCInc/eslint-config-clc",
   "peerDependencies": {
     "eslint": ">= 3"
-  },
-  "devDependencies": {
-    "eslint": "^6.3.0"
   }
 }
