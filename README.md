@@ -2,7 +2,7 @@
 ES Lint Config
 
 To add this file to your own project, setup your project's `package.json` to include
-the following (note that you should the most up-to-date versions of each):
+the following (note that you should use the most up-to-date versions of each):
 ```js
   "devDependencies": {
     "eslint": "^6.6.0",
