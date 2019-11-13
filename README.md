@@ -9,6 +9,7 @@ the following (note that you should the most up-to-date versions of each):
     "eslint-config-clc": "git://github.com/CLCInc/eslint-config-clc.git",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1"
   }
 ```
 and then in your project's root folder, create a `.eslintrc` file containing the following:
