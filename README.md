@@ -2,6 +2,10 @@
 
 Shareable eslint configuration.
 
+## Builds and Deployment
+![master](https://img.shields.io/circleci/build/github/CLCInc/eslint-config-clc/master?label=master&style=flat-square&token=423c85795fad485f420ac4e656f283ebe12b0987)
+![Semantic Release](https://img.shields.io/badge/deploy-semantic%20release-blueviolet?style=flat-square&link=https://github.com/CLCInc/documentation/wiki/Git-Commit-Guidelines)
+
 To add this file to your own project, setup your project's `package.json` to include
 the following (note that you should use up-to-date versions of each dependency):
 ```js
