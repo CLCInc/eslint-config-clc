@@ -1,8 +1,11 @@
 {
-  "name": "eslint-config-clc",
+  "name": "@clc_inc/eslint-config-clc",
   "version": "1.0.2",
   "description": "Shareable eslint configuration",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig"
