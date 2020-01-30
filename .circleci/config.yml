@@ -20,7 +20,8 @@ jobs:
           name: Semantic Release
           # Must include on the npx command any packages for any plugins specified in .releaserc that are not part of the main semantic-release package
           # See: https://github.com/semantic-release/semantic-release/blob/master/docs/extending/plugins-list.md
-          command: npx -p @semantic-release/changelog -p @semantic-release/git -p semantic-release semantic-release
+          # semantic release packages are pinned the highest version we know works in our environment
+          command: npx -p @semantic-release/changelog@5.0.0 -p @semantic-release/git@9.0.0 -p semantic-release@17.0.1 semantic-release
 
 workflows:
   version: 2
