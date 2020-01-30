@@ -2,8 +2,9 @@ version: 2
 
 defaults: &defaults
   shell: /bin/bash --login
+  # Docker image ENV variables are set in the CircleCI config per project.  
   docker:
-    - image: circleci/node:10.16.0-stretch
+    - image: ${DOCKER_NODE_IMAGE}
 
 jobs:
 
