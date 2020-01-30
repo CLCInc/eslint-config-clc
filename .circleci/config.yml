@@ -15,7 +15,7 @@ jobs:
       - run:
           name: Set NPMJS Registry
           command: npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-      - run: npm install
+      - run: npm ci
       - run:
           name: Semantic Release
           # Must include on the npx command any packages for any plugins specified in .releaserc that are not part of the main semantic-release package
