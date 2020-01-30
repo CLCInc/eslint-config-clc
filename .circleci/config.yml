@@ -2,8 +2,9 @@ version: 2
 
 defaults: &defaults
   shell: /bin/bash --login
+  # Docker image ENV variables are set in the CircleCI config per project.  
   docker:
-    - image: circleci/node:10.16.0-stretch
+    - image: ${DOCKER_NODE_IMAGE}
 
 jobs:
 
@@ -14,12 +15,13 @@ jobs:
       - run:
           name: Set NPMJS Registry
           command: npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-      - run: npm install
+      - run: npm ci
       - run:
           name: Semantic Release
           # Must include on the npx command any packages for any plugins specified in .releaserc that are not part of the main semantic-release package
           # See: https://github.com/semantic-release/semantic-release/blob/master/docs/extending/plugins-list.md
-          command: npx -p @semantic-release/changelog -p @semantic-release/git -p semantic-release semantic-release
+          # semantic release packages are pinned the highest version we know works in our environment
+          command: npx -p @semantic-release/changelog@5.0.0 -p @semantic-release/git@9.0.0 -p semantic-release@17.0.1 semantic-release
 
 workflows:
   version: 2
