@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/CLCInc/eslint-config-clc/compare/v2.0.0...v2.1.0) (2022-02-17)
+
+
+### Features
+
+* whitespace change to trigger version bump ([#8](https://github.com/CLCInc/eslint-config-clc/issues/8)) ([25ef3e3](https://github.com/CLCInc/eslint-config-clc/commit/25ef3e39e1b8cec50010130a31c69521d507ec11))
+
 # [2.0.0](https://github.com/CLCInc/eslint-config-clc/compare/v1.0.2...v2.0.0) (2020-01-03)
 
 
