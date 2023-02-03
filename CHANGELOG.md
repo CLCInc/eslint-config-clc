@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/CLCInc/eslint-config-clc/compare/v2.1.0...v2.1.1) (2023-02-03)
+
+
+### Bug Fixes
+
+* whitespace change to trigger test of circleci and npm publish ([#9](https://github.com/CLCInc/eslint-config-clc/issues/9)) ([26c80ba](https://github.com/CLCInc/eslint-config-clc/commit/26c80bada2ae24f18465347203bc81268574d113))
+
 # [2.1.0](https://github.com/CLCInc/eslint-config-clc/compare/v2.0.0...v2.1.0) (2022-02-17)
 
 
