@@ -24,4 +24,4 @@ and then in your project's root folder, create a `.eslintrc` file containing the
 ```
 
 Perform an `npm install` and now IDEs such as WebStorm and VSCode should be able to find the `.eslintrc`
-and give you responsive feedback!
+and give you responsive feedback!  
