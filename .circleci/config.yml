@@ -2,12 +2,11 @@ version: 2
 
 defaults: &defaults
   shell: /bin/bash --login
-  # Docker image ENV variables are set in the CircleCI config per project.  
+  # Docker image ENV variables are set in the CircleCI config per project.
   docker:
     - image: ${DOCKER_NODE_IMAGE}
 
 jobs:
-
   publish:
     <<: *defaults
     steps:
@@ -28,6 +27,8 @@ workflows:
   build_publish:
     jobs:
       - publish:
+          context:
+            - MSA
           filters:
             branches:
               only:
