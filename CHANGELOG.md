@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/CLCInc/eslint-config-clc/compare/v2.1.1...v2.1.2) (2025-04-16)
+
+
+### Bug Fixes
+
+* DEV-3602 Support Context in Circle CI ([#12](https://github.com/CLCInc/eslint-config-clc/issues/12)) ([8a6d893](https://github.com/CLCInc/eslint-config-clc/commit/8a6d8933b3b909c0977a2ff74392c830ffa4ec2a))
+
 ## [2.1.1](https://github.com/CLCInc/eslint-config-clc/compare/v2.1.0...v2.1.1) (2023-02-03)
 
 
